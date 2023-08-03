@@ -1,0 +1,45 @@
+﻿@model GameSphere.Models.UserView
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h4>New User</h4>
+<hr />
+@{
+    if (ViewBag.Error != null)
+    {
+        <p class="text-danger fw-bold p-4">@ViewBag.Error</p>
+    }
+}
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="mb-4">
+                <label asp-for="ConfirmPassword" class="form-label"></label>
+                <input asp-for="ConfirmPassword" class="form-control" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <input type="submit" value="Create User" class="btn btn-warning me-3" />
+                <a asp-action="Index" class="btn btn-secondary text-white">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

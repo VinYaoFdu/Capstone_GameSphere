@@ -1,0 +1,36 @@
+﻿@model GameSphere.Models.UserView
+
+@{
+    ViewData["Title"] = "Delete user";
+}
+
+<h4>Delete user</h4>
+<hr />
+@{
+    if (ViewBag.Error != null)
+    {
+        <p class="text-danger fw-bold p-4">@ViewBag.Error</p>
+    }
+}
+<div class="row">
+    <div class="col-md-4">
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" readonly />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Roles:</label>
+            @foreach (var item in Model.Role)
+            {
+                <div>@item</div>
+            }
+        </div>
+    </div>
+    <form asp-action="DeleteConfirmed" method="post">
+        <input asp-for="Id" type="hidden" class="form-control" readonly />
+        <input type="submit" value="Delete User" class="btn btn-danger me-2" />
+        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+    </form>
+
+</div>
+

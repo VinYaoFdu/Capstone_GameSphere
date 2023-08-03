@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GameSphere.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GameSphere.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\css\\GameSphere.styles.css",
+      "PackagePath": "staticwebassets\\css\\GameSphere.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage0.jpg",
+      "PackagePath": "staticwebassets\\img\\HomePage0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage1.png",
+      "PackagePath": "staticwebassets\\img\\HomePage1.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage2.png",
+      "PackagePath": "staticwebassets\\img\\HomePage2.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage3.png",
+      "PackagePath": "staticwebassets\\img\\HomePage3.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage4.png",
+      "PackagePath": "staticwebassets\\img\\HomePage4.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage5.png",
+      "PackagePath": "staticwebassets\\img\\HomePage5.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage6.png",
+      "PackagePath": "staticwebassets\\img\\HomePage6.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage7.png",
+      "PackagePath": "staticwebassets\\img\\HomePage7.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage8.png",
+      "PackagePath": "staticwebassets\\img\\HomePage8.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage9.png",
+      "PackagePath": "staticwebassets\\img\\HomePage9.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\home.jpg",
+      "PackagePath": "staticwebassets\\img\\home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\icon.ico",
+      "PackagePath": "staticwebassets\\img\\icon.ico"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\logo.ico",
+      "PackagePath": "staticwebassets\\img\\logo.ico"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\logo1.ico",
+      "PackagePath": "staticwebassets\\img\\logo1.ico"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\logo1.png",
+      "PackagePath": "staticwebassets\\img\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\logo2.png",
+      "PackagePath": "staticwebassets\\img\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\GameSphere.styles.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\GameSphere.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\mint.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\mint.min.css"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.GameSphere.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.GameSphere.props",
+      "PackagePath": "build\\GameSphere.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.GameSphere.props",
+      "PackagePath": "buildMultiTargeting\\GameSphere.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.GameSphere.props",
+      "PackagePath": "buildTransitive\\GameSphere.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

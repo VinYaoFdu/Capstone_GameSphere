@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="card bg-light text-center">
+    <div align="center" class="container" style="background-color: white">
+        <div class="row">
+            <img id="homePageImage" width="100%" height="100%" src="~/img/HomePage1.png">
+        </div>
+    </div>
+    <div class="card-title h2">
+        <p style="font-size:15px; color:darkred; font-weight:bold;">Pick up your Favorite</p>
+    </div>
+    @{
+        if (!User.Identity.IsAuthenticated)
+        {
+            <p>You are <kbd>NOT</kbd> authenticated</p>
+        }
+        else
+        {
+            if (User.IsInRole("admin"))
+            {
+                <p> Hello <kbd>admin</kbd>, How are you doing?@*@User.IsInRole("admin")*@</p>
+            }
+            else if (User.IsInRole("member"))
+            {
+                <p> Hi <kbd>member</kbd>, Welcome back! @*@User.IsInRole("member")*@</p>
+            }
+            else
+            {
+                <p> Welcome <kbd>guest</kbd>, feel free to look around~</p>
+            }
+        }
+    }
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    var images = [
+        "/img/HomePage1.png",
+        "/img/HomePage2.png",
+        "/img/HomePage3.png",
+        "/img/HomePage4.png",
+        "/img/HomePage5.png",
+        "/img/HomePage6.png",
+        "/img/HomePage7.png",
+        "/img/HomePage8.png",
+        "/img/HomePage9.png"
+    ];
+
+    var currentIndex = 0;
+
+    function changeImage() {
+        var imagePath = images[currentIndex];
+        $('#homePageImage').attr('src', imagePath);
+        currentIndex = (currentIndex + 1) % images.length;
+    }
+
+    setInterval(changeImage, 3000);
+</script>
