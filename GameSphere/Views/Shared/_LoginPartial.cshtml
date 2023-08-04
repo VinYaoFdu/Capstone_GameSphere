@@ -1,10 +1,22 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
+@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment WebHostEnvironment
 
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
 {
+    var user = await UserManager.GetUserAsync(User);
+        var uploadsDirectory = Url.Content("~/uploads/");
+        var avatarFileName = $"{user.Id}_avatar";
+
+        string[] extensions = { ".jpg", ".png", ".jpeg" };
+        string avatarPath = GetAvailableAvatarPath(uploadsDirectory, avatarFileName, extensions);
+
+        <li class="nav-item">
+            <img src="@Url.Content(avatarPath)" alt="Avatar" width="40" height="40" class="nav-avatar" style="border-radius:50%" />
+        </li>
+
     <li class="nav-item">
         <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
     </li>
@@ -24,3 +36,19 @@ else
     </li>
 }
 </ul>
+
+@functions {
+    private string GetAvailableAvatarPath(string uploadsDirectory, string avatarFileName, string[] extensions)
+    {
+        foreach (var extension in extensions)
+        {
+            var avatarPath = $"{uploadsDirectory}{avatarFileName}{extension}";
+            if (System.IO.File.Exists(WebHostEnvironment.WebRootPath + avatarPath))
+            {
+                return avatarPath;
+            }
+        }
+
+        return "";
+    }
+}

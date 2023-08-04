@@ -1,0 +1,74 @@
+﻿@model IEnumerable<GameSphere.Models.Post>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="text-center" style="margin-bottom: 30px;">
+
+    <h3 class="bg-primary  text-white" style="margin-bottom: 20px;">
+        Search item by topic
+    </h3>
+    </div>
+
+<form asp-action="Index" asp-controller="SearchPost" method="get">
+    <div class="input-group">
+        <input type="text" class="form-control" name="searchString" placeholder="Search by topic" aria-label="Search by topic">
+        <div class="input-group-append">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+        </div>
+    </div>
+</form>
+
+
+@if (Model == null || !Model.Any())
+{
+    <h2 class="text-center" style="margin-top: 30px;">No items exist, please check input is correct</h2>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Topic)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Message)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PostedBy)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MessaAt)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var post in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => post.Topic)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => post.Message)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => post.PostedBy)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => post.MessaAt)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@post.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@post.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@post.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

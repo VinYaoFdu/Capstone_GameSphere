@@ -6,6 +6,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using GameSphere.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -16,13 +17,16 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly IWebHostEnvironment _environment;  //-------------------------------------
 
         public IndexModel(
             UserManager<IdentityUser> userManager,
-            SignInManager<IdentityUser> signInManager)
+            IWebHostEnvironment environment,    //-------------------------------------
+            SignInManager<IdentityUser> signInManager, ApplicationDbContext context)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _environment = environment;     //-------------------------------------
         }
 
         /// <summary>
@@ -35,6 +39,8 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
         ///     directly from your code. This API may change or be removed in future releases.
         /// </summary>
+        /// 
+
         [TempData]
         public string StatusMessage { get; set; }
 
@@ -51,6 +57,8 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
         /// </summary>
         public class InputModel
         {
+            public IFormFile Avatar { get; set; } //------------------------------------
+
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
@@ -59,6 +67,10 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
         }
+        //-----------------------------------------------
+        public string AvatarPath { get; set; }
+        public string AvatarExtension { get; set; }
+        //-----------------------------------------------
 
         private async Task LoadAsync(IdentityUser user)
         {
@@ -80,6 +92,12 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
             {
                 return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
             }
+
+            //-----------------------------------------------
+            Username = user.UserName;
+            AvatarPath = "/uploads/" + user.Id + "_avatar.png";
+            AvatarExtension = "png";
+            //-----------------------------------------------
 
             await LoadAsync(user);
             return Page();
@@ -110,8 +128,35 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
                 }
             }
 
-            await _signInManager.RefreshSignInAsync(user);
-            StatusMessage = "Your profile has been updated";
+
+            //-----------------------------------------------
+            Username = user.UserName;
+
+            // Handle the avatar upload if provided
+            if (Input.Avatar != null && Input.Avatar.Length > 0)
+            {
+                var uploadsDirectory = Path.Combine(_environment.WebRootPath, "uploads");
+                if (!Directory.Exists(uploadsDirectory))
+                {
+                    Directory.CreateDirectory(uploadsDirectory);
+                }
+
+                var avatarPath = Path.Combine(uploadsDirectory, $"{user.Id}_avatar.png");
+                using (var stream = new FileStream(avatarPath, FileMode.Create))
+                {
+                    await Input.Avatar.CopyToAsync(stream);
+                }
+
+                // Save the avatar path and extension to the user's profile or database if needed
+                AvatarPath = avatarPath;
+                AvatarExtension = "png";
+                StatusMessage = "Avatar uploaded successfully.";
+            }
+            //-----------------------------------------------
+
+
+            //await _signInManager.RefreshSignInAsync(user);
+            //StatusMessage = "Your profile has been updated";
             return RedirectToPage();
         }
     }

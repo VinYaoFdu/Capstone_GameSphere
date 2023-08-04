@@ -4,13 +4,12 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
-
-<h4>Post</h4>
+<h4>Add a new Post</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <!-- Add enctype attribute for file upload -->
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Topic" class="control-label"></label>
@@ -24,20 +23,21 @@
             </div>
             <div class="form-group">
                 <label asp-for="PostedBy" class="control-label"></label>
-                <input asp-for="PostedBy" class="form-control" value="@User.Identity?.Name" readonly />  @*------*@
+                <input asp-for="PostedBy" class="form-control" value="@User.Identity?.Name" readonly />
                 <span asp-validation-for="PostedBy" class="text-danger"></span>
             </div>
-            @*<div class="form-group">
-                <label asp-for="MessaAt" class="control-label"></label>
-                <input asp-for="MessaAt" class="form-control" />
-                <span asp-validation-for="MessaAt" class="text-danger"></span>
-            </div>*@
             <div class="form-group">
                 <label class="control-label">PostedAt</label>
                 <input class="form-control" value="@DateTime.UtcNow.ToString()" readonly />
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <!-- New file input field for image upload -->
+                <label asp-for="ImageFile" class="control-label"></label>
+                <input asp-for="ImageFile" type="file" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Publish" class="btn btn-primary" />
             </div>
         </form>
     </div>
@@ -48,5 +48,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

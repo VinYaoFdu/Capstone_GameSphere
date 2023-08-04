@@ -1,0 +1,53 @@
+﻿@model IEnumerable<GameSphere.Models.Post>
+
+@{
+    ViewData["Title"] = "Filtered Posts By Topic";
+}
+
+<h2 class="text-center">Filtered Posts By Topic</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Topic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Message)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().PostedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().MessaAt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td>
+                    @*@Html.DisplayFor(modelItem => post.Topic)*@
+                    <a asp-action="Details" class="" asp-route-id="@post.Id">@Html.DisplayFor(modelItem => post.Topic)</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => post.Message)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => post.PostedBy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => post.MessaAt)
+                </td>
+                @*<td>
+                    <a asp-action="Edit" asp-route-id="@post.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@post.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@post.Id">Delete</a>
+                </td>*@
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Index" asp-controller="Filtered" class="btn btn-secondary">Back to Filter</a>
