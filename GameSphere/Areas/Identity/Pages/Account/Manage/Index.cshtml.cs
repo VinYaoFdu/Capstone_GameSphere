@@ -6,7 +6,6 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
-using GameSphere.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -21,12 +20,13 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
 
         public IndexModel(
             UserManager<IdentityUser> userManager,
-            IWebHostEnvironment environment,    //-------------------------------------
-            SignInManager<IdentityUser> signInManager, ApplicationDbContext context)
+            IWebHostEnvironment environment,  //-------------------------------------
+            SignInManager<IdentityUser> signInManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _environment = environment;     //-------------------------------------
+
         }
 
         /// <summary>
@@ -39,8 +39,6 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
         ///     directly from your code. This API may change or be removed in future releases.
         /// </summary>
-        /// 
-
         [TempData]
         public string StatusMessage { get; set; }
 
@@ -58,7 +56,6 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
         public class InputModel
         {
             public IFormFile Avatar { get; set; } //------------------------------------
-
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
@@ -67,6 +64,7 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
         }
+
         //-----------------------------------------------
         public string AvatarPath { get; set; }
         public string AvatarExtension { get; set; }
@@ -128,7 +126,6 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
                 }
             }
 
-
             //-----------------------------------------------
             Username = user.UserName;
 
@@ -157,6 +154,7 @@ namespace GameSphere.Areas.Identity.Pages.Account.Manage
 
             //await _signInManager.RefreshSignInAsync(user);
             //StatusMessage = "Your profile has been updated";
+
             return RedirectToPage();
         }
     }

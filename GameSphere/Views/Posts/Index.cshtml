@@ -4,73 +4,68 @@
     ViewData["Title"] = "Index";
 }
 
-<div class="text-center" style="margin-bottom: 24px;">
-
-    <h3 class="btn btn-primary" style="font-size:24px; margin-bottom: 20px;">
-        Member Page
-    </h3>
-</div>
-
 <div class="text-center">
-    <table class="table table-striped table-bordered table-hover">
-        <thead>
+<h2 class="mb-4">Member Page</h2>
+<br>
+<table class="table table-striped table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Topic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MessaAt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            // Sort topics by MessaAt
+            var sortedOrder = Model.OrderByDescending(item => item.MessaAt);
+        }
+
+        @foreach (var item in sortedOrder)
+        {
             <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Topic)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Message)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.PostedBy)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.MessaAt)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @{
-                // Sort topics by MessaAt
-                var sortedOrder = Model.OrderByDescending(item => item.MessaAt);
-            }
-
-            @foreach (var item in sortedOrder)
-            {
-                <tr>
-                    <td>
-                        <a asp-action="Details" class="" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Topic)</a>
-
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Message)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.PostedBy)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.MessaAt)
-                    </td>
-                    @*<td>
-                <div class="btn-group">
-                @if (item.PostedBy == User.Identity?.Name)
-                {
-                <a asp-action="Edit" class="btn btn-outline-third" asp-route-id="@item.Id">Edit</a>
-                }
-                <a asp-action="Details" class="btn btn-outline-success" asp-route-id="@item.Id">Details</a>
-                @if (item.PostedBy == User.Identity?.Name)
-                {
-                <a asp-action="Delete" class="btn btn-outline-danger" asp-route-id="@item.Id">Delete</a>
-                }
-                </div>
+                <td>
+                    <a asp-action="Details" class="" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Topic)</a>
+                    
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Message)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostedBy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MessaAt)
+                </td>
+                @*<td>
+                    <div class="btn-group">
+                        @if (item.PostedBy == User.Identity?.Name)
+                        {
+                            <a asp-action="Edit" class="btn btn-outline-third" asp-route-id="@item.Id">Edit</a>
+                        }
+                        <a asp-action="Details" class="btn btn-outline-success" asp-route-id="@item.Id">Details</a>
+                        @if (item.PostedBy == User.Identity?.Name)
+                        {
+                            <a asp-action="Delete" class="btn btn-outline-danger" asp-route-id="@item.Id">Delete</a>
+                        }
+                    </div>
                 </td>*@
-                </tr>
-            }
-    </table>
-    <p style="text-align:right;">
-        <a asp-action="Create" class="btn btn-outline-third" style="text-decoration: none; padding: 5px; border-radius: 5px;">
-            Post a new Message
-        </a>
-    </p>
+            </tr>
+        }
+</table>
+<p style="text-align:right;">
+    <a asp-action="Create" class="btn btn-outline-third" style="text-decoration: none; padding: 5px; border-radius: 5px;">
+        Post a new Message
+    </a>
+</p>
 </div>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - GameSphere</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/mint.min.css" />
-    <link rel="icon" href="~/img/logo.ico/>
+    <link rel="icon" href="~/img/logo.ico" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/GameSphere.styles.css" asp-append-version="true" />
 </head>
@@ -28,19 +28,11 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Posts" asp-action="Index">Member Pages</a>
                             </li>
-
-
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-dark" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Posts
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="adminDropdown">
-                                    <a class="dropdown-item" asp-area="" asp-controller="Filtered" asp-action="index">Filter Posts</a>
-
-
-                                    <a class="dropdown-item" asp-area="" asp-controller="SearchPost" asp-action="Index">Search Post</a>
-
-
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="PostsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Posts</a>
+                                <div class="dropdown-menu" aria-labelledby="PostsDropdown">
+                                    <a class="dropdown-item" asp-controller="Posts" asp-action="FilterPosts">Filter Posts</a>
+                                    <a class="dropdown-item" asp-controller="Posts" asp-action="SearchPosts">Search Posts</a>
                                 </div>
                             </li>
                         }
@@ -49,21 +41,11 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Posts" asp-action="Index">Member Page</a>
                             </li>
-          
-                           
-
-                            
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-dark" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Posts
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="adminDropdown">
-                                    <a class="dropdown-item" asp-area="" asp-controller="Filtered" asp-action="index">Filter Posts</a>
-
-
-                                    <a class="dropdown-item" asp-area="" asp-controller="SearchPost" asp-action="Index">Search Post</a>
-
-                              
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="PostsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Posts</a>
+                                <div class="dropdown-menu" aria-labelledby="PostsDropdown">
+                                    <a class="dropdown-item" asp-controller="Posts" asp-action="FilterPosts">Filter Posts</a>
+                                    <a class="dropdown-item" asp-controller="Posts" asp-action="SearchPosts">Search Posts</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">

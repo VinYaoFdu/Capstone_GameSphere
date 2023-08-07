@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yi6V8eLAC2Bd/VD9HF5lp+FJMt5G6AeGS9QRyWk/2kuoUVpbpbhKoRBjXv5Lsu70PJBWtPfzvVfO1bKdZwTdpg==",
+  "dgSpecHash": "JunWffZ1yBDD5G0SYgMWzRKbjOjFMKQli7XD+W7a3sVqeuRQJf/tBj5a79K+WjYIiMTbslxAmZxod1T1NtJZbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\GameSphere.csproj",
+  "projectFilePath": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\GameSphere.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\use\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\use\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,23 +1,26 @@
-﻿@model GameSphere.Models.Post
-
+﻿@model GameSphere.Models.PostDetailsModel
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>@Model.Topic</h1>
+<h1>@Model.Post.Topic</h1>
 <br>
 
 <div class="post-container">
     <div class="row">
         <div class="col-md-2">
             <div class="post-header">
-                <span class="username">@Model.PostedBy</span>
-                <div class="created-at">@Model.MessaAt</div>
+                <span class="username">@Model.Post.PostedBy</span>
+                <div class="created-at">@Model.Post.MessaAt</div>
+                <div class="post-actions">
+                    <button onclick="likePost(@Model.Post.Id)" class="like-button" style="border-radius:30%;">Like</button>
+                    <span id="likeCount">@Model.LikesCount</span> likes
+                </div>
                 <br>
                 <div>
-                    @if (User.Identity.Name == Model.PostedBy)
+                    @if (User.Identity.Name == Model.Post.PostedBy)
                     {
-                        <a asp-action="Edit" asp-route-id="@Model.Id">Edit | </a>
+                        <a asp-action="Edit" asp-route-id="@Model.Post.Id">Edit | </a>
                     }
                     <a asp-action="Index">Back to List</a>
                 </div>
@@ -26,12 +29,12 @@
 
         <div class="col-md-10">
             <div class="post-message">
-                <h4>@Model.Message</h4>
+                <h4>@Model.Post.Message</h4>
             </div>
             <div class="post-image" style="text-align: left;">
-                @if (!string.IsNullOrEmpty(Model.ImagePath))
+                @if (!string.IsNullOrEmpty(Model.Post.ImagePath))
                 {
-                    <img src="@Url.Content(Model.ImagePath)" alt="Game Image" width="900"/>
+                    <img src="@Url.Content(Model.Post.ImagePath)" alt="Game Image" />
                 }
                 else
                 {
@@ -39,7 +42,26 @@
                 }
             </div>
             <br>
-            
+
+            <br>
+            @*<h3>Replies:</h3>*@
+            <div id="replies" class="replies-container">
+                @if (Model.Replies.Count > 0)
+                {
+                    @foreach (var reply in Model.Replies)
+                    {
+                        <div class="reply-row">
+                            <span class="reply-username">@reply.UserName</span>
+                            <div class="reply-message">@reply.Message</div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p>No replies yet.</p>
+                }
+            </div>
+
             <div class="post-reply">
                 <form class="reply-form">
                     @Html.AntiForgeryToken()
@@ -51,3 +73,169 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.querySelector('.reply-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        var replyInput = document.getElementById('replyInput');
+        var reply = replyInput.value;
+        replyInput.value = '';
+
+        var formData = new FormData();
+        formData.append('id', @Model.Post.Id);
+        formData.append('comment', reply);
+
+        fetch('/Posts/Reply', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'XSRF-TOKEN': document.querySelector('input[name="__RequestVerificationToken"]').value
+            }
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    var repliesContainer = document.getElementById('replies');
+                    var newReply = document.createElement('div');
+                    newReply.classList.add('reply-row');
+
+                    var username = document.createElement('span');
+                    username.classList.add('reply-username');
+                    username.textContent = getReplyUsername();
+                    newReply.appendChild(username);
+
+                    var message = document.createElement('div');
+                    message.classList.add('reply-message');
+                    message.textContent = reply;
+                    newReply.appendChild(message);
+
+                    repliesContainer.appendChild(newReply);
+                }
+            });
+    });
+
+    function getReplyUsername() {
+        var replyUsernameInput = document.getElementById('replyUsernameInput');
+        return replyUsernameInput.value;
+    }
+
+    function likePost(postId) {
+        fetch(`/Posts/LikePost?id=${postId}`, {
+            method: 'POST',
+            headers: {
+                'XSRF-TOKEN': document.querySelector('input[name="__RequestVerificationToken"]').value
+            }
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.likeCount !== undefined) {
+                    var likeCountElement = document.getElementById('likeCount');
+                    likeCountElement.textContent = data.likeCount;
+                }
+            });
+    }
+</script>
+
+<style>
+    .post-container {
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: rgba(249, 249, 249, 0.5);
+    }
+
+    .avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .username {
+        font-weight: bold;
+    }
+
+    .created-at {
+        font-style: italic;
+        color: #888;
+        margin-top: 5px;
+    }
+
+    .col-md-10 {
+        max-width: 80%;
+    }
+
+    .post-message p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .post-image img {
+        width: 100%;
+        max-width: 900px;
+        height: auto;
+    }
+
+    .post-actions {
+        margin-top: 10px;
+    }
+
+    .like-button {
+        padding: 5px 10px;
+        background-color: #337ab7;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    #likeCount {
+        margin-left: 5px;
+        font-weight: bold;
+    }
+
+    .reply-form {
+        margin-top: 10px;
+    }
+
+    .comment-textarea {
+        width: 100%;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .reply-button {
+        padding: 5px 10px;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .replies-container {
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .reply-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .reply-avatar {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .reply-username {
+        margin-right: 10px;
+        font-weight: normal;
+    }
+
+    .reply-message {
+        flex: 1;
+        font-weight: bold;
+    }
+</style>

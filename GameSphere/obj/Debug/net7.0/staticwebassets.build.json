@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OwAnEs1xuIvy0g6P35qPJAxbxkbnNtqHeRDvDMZpTk0=",
+  "Hash": "iyrxyJR9Hp+JuCgoIjZ4UGXfb5X3YXdk2zVUHS4dcLs=",
   "Source": "GameSphere",
   "BasePath": "_content/GameSphere",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "GameSphere\\wwwroot",
       "Source": "GameSphere",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\use\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.9\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\bundle\\GameSphere.styles.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\bundle\\GameSphere.styles.css",
       "SourceId": "GameSphere",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "GameSphere.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\bundle\\GameSphere.styles.css"
+      "OriginalItemSpec": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\bundle\\GameSphere.styles.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GameSphere.bundle.scp.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GameSphere.bundle.scp.css",
       "SourceId": "GameSphere",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "GameSphere.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GameSphere.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GameSphere.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\css\\GameSphere.styles.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\css\\GameSphere.styles.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "css/GameSphere.styles.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\GameSphere.styles.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\css\\site.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\favicon.ico",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\home.jpg",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\home.jpg",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/home.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\img\\home.jpg"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\HomePage0.jpg",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage0.jpg",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/HomePage0.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\img\\HomePage0.jpg"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\HomePage1.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage1.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/HomePage1.png",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\img\\HomePage1.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\HomePage2.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage2.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/HomePage2.png",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\img\\HomePage2.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\HomePage3.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage3.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/HomePage3.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\HomePage3.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\HomePage4.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage4.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/HomePage4.png",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\img\\HomePage4.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\HomePage5.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage5.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/HomePage5.png",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\img\\HomePage5.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\HomePage6.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage6.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/HomePage6.png",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\img\\HomePage6.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\HomePage7.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage7.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/HomePage7.png",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\img\\HomePage7.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\HomePage8.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage8.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/HomePage8.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\img\\HomePage8.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\HomePage9.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\HomePage9.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/HomePage9.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\img\\HomePage9.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\icon.ico",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\icon.ico",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/icon.ico",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon.ico"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\logo.ico",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\logo.ico",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/logo.ico",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.ico"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\logo.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\logo.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\logo1.ico",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\logo1.ico",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/logo1.ico",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo1.ico"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\logo1.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\logo1.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/logo1.png",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo1.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\img\\logo2.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\img\\logo2.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "img/logo2.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo2.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\js\\site.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\GameSphere.styles.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\GameSphere.styles.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/GameSphere.styles.css",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\GameSphere.styles.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\mint.min.css",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\mint.min.css",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/css/mint.min.css",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\mint.min.css"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2431,12 +2431,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\uploads\\033c2cd4-496d-47e0-803b-09614f685a52_Dizzy.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\uploads\\0cceba14-bb06-4263-b0bd-6161cfaa2c7f_avatar.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
-      "RelativePath": "uploads/033c2cd4-496d-47e0-803b-09614f685a52_Dizzy.png",
+      "RelativePath": "uploads/0cceba14-bb06-4263-b0bd-6161cfaa2c7f_avatar.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2445,15 +2445,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\033c2cd4-496d-47e0-803b-09614f685a52_Dizzy.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\0cceba14-bb06-4263-b0bd-6161cfaa2c7f_avatar.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\uploads\\177e2db5-438e-4895-9c95-f8890a607bfa_age2.jpg",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\uploads\\14b62d14-e5de-4e76-91e4-b3ba811ede65_RA3.jpg",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
-      "RelativePath": "uploads/177e2db5-438e-4895-9c95-f8890a607bfa_age2.jpg",
+      "RelativePath": "uploads/14b62d14-e5de-4e76-91e4-b3ba811ede65_RA3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2462,15 +2462,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\177e2db5-438e-4895-9c95-f8890a607bfa_age2.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\14b62d14-e5de-4e76-91e4-b3ba811ede65_RA3.jpg"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\uploads\\4d6fa8a2-94ea-43d9-952e-a95504cbf1b8_CompanyOfHeroes3.jpg",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\uploads\\5c5f846f-99a4-4c3c-b0fb-c890463dd7ba_Red_Alert_3.jpg",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
-      "RelativePath": "uploads/4d6fa8a2-94ea-43d9-952e-a95504cbf1b8_CompanyOfHeroes3.jpg",
+      "RelativePath": "uploads/5c5f846f-99a4-4c3c-b0fb-c890463dd7ba_Red_Alert_3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2479,15 +2479,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\4d6fa8a2-94ea-43d9-952e-a95504cbf1b8_CompanyOfHeroes3.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\5c5f846f-99a4-4c3c-b0fb-c890463dd7ba_Red_Alert_3.jpg"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\uploads\\6a913e3d-be27-48e2-8951-fcf823c1e957_avatar.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\uploads\\78783794-b634-4728-9dc1-32d453c22e88_avatar.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
-      "RelativePath": "uploads/6a913e3d-be27-48e2-8951-fcf823c1e957_avatar.png",
+      "RelativePath": "uploads/78783794-b634-4728-9dc1-32d453c22e88_avatar.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2496,15 +2496,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\6a913e3d-be27-48e2-8951-fcf823c1e957_avatar.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\78783794-b634-4728-9dc1-32d453c22e88_avatar.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\uploads\\acbeeee6-7204-4f2f-ac30-bddcd48cc061_CompanyOfHeroes3.jpg",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\uploads\\de815db8-52e9-4dfa-8fdb-a99e6a58ee81_CompanyOfHeroes3.jpg",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
-      "RelativePath": "uploads/acbeeee6-7204-4f2f-ac30-bddcd48cc061_CompanyOfHeroes3.jpg",
+      "RelativePath": "uploads/de815db8-52e9-4dfa-8fdb-a99e6a58ee81_CompanyOfHeroes3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2513,47 +2513,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\acbeeee6-7204-4f2f-ac30-bddcd48cc061_CompanyOfHeroes3.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\de815db8-52e9-4dfa-8fdb-a99e6a58ee81_CompanyOfHeroes3.jpg"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\uploads\\dec4ab29-7fb0-4c0d-aa71-523ccd1f4d70_avatar.png",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\uploads\\e82c20cc-4efb-4cf7-ba17-a28a86c02747_avatar.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
-      "BasePath": "_content/GameSphere",
-      "RelativePath": "uploads/dec4ab29-7fb0-4c0d-aa71-523ccd1f4d70_avatar.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\dec4ab29-7fb0-4c0d-aa71-523ccd1f4d70_avatar.png"
-    },
-    {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\uploads\\e4db1b79-9b44-49c3-878d-c2836eb72ad5_2efd7e57-cc11-4b56-8b67-ddbd268de563-AFRICA_FRONT.jpg",
-      "SourceId": "GameSphere",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
-      "BasePath": "_content/GameSphere",
-      "RelativePath": "uploads/e4db1b79-9b44-49c3-878d-c2836eb72ad5_2efd7e57-cc11-4b56-8b67-ddbd268de563-AFRICA_FRONT.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\e4db1b79-9b44-49c3-878d-c2836eb72ad5_2efd7e57-cc11-4b56-8b67-ddbd268de563-AFRICA_FRONT.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\uploads\\e82c20cc-4efb-4cf7-ba17-a28a86c02747_avatar.png",
-      "SourceId": "GameSphere",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "uploads/e82c20cc-4efb-4cf7-ba17-a28a86c02747_avatar.png",
       "AssetKind": "All",
@@ -2567,27 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\e82c20cc-4efb-4cf7-ba17-a28a86c02747_avatar.png"
     },
     {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\uploads\\ea26bccc-692e-4da5-aa16-bce7d208c543_CompanyOfHeroes3.jpg",
+      "Identity": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\uploads\\f6452920-70bc-473e-b148-a1b03618fa16_avatar.png",
       "SourceId": "GameSphere",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
-      "BasePath": "_content/GameSphere",
-      "RelativePath": "uploads/ea26bccc-692e-4da5-aa16-bce7d208c543_CompanyOfHeroes3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\ea26bccc-692e-4da5-aa16-bce7d208c543_CompanyOfHeroes3.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\uploads\\f6452920-70bc-473e-b148-a1b03618fa16_avatar.png",
-      "SourceId": "GameSphere",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\wwwroot\\",
       "BasePath": "_content/GameSphere",
       "RelativePath": "uploads/f6452920-70bc-473e-b148-a1b03618fa16_avatar.png",
       "AssetKind": "All",

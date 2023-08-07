@@ -2,7 +2,6 @@
 @{
     var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
 }
-
 @{
     string uploadAvatarNavClass = string.Empty;
     string currentAction = ViewContext.RouteData.Values["Page"]?.ToString();

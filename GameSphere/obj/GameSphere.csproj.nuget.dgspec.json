@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\GameSphere.csproj": {}
+    "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\GameSphere.csproj": {}
   },
   "projects": {
-    "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\GameSphere.csproj": {
+    "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\GameSphere.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\GameSphere.csproj",
+        "projectUniqueName": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\GameSphere.csproj",
         "projectName": "GameSphere",
-        "projectPath": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\GameSphere.csproj",
+        "projectPath": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\GameSphere.csproj",
         "packagesPath": "C:\\Users\\use\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\use\\Documents\\GitHub\\MyWebProg\\Capstone_GameSphere\\GameSphere\\obj\\",
+        "outputPath": "C:\\Users\\use\\Documents\\CSCI6844\\GameSphere\\GameSphere\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\use\\AppData\\Roaming\\NuGet\\NuGet.Config",

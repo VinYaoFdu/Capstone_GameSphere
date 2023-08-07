@@ -1,0 +1,109 @@
+﻿@model IEnumerable<GameSphere.Models.Post>
+@{
+    ViewData["Title"] = "FilterPosts";
+}
+
+@*<h1>FilterPosts</h1>*@
+
+<div class="text-center">
+	<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="justify-content: center;display:inline-flex; border:1px grey; border-radius: 5px;">
+		<li class="nav-item" role="presentation">
+			<button class="nav-link @ViewBag.topicTab" id="pills-topic-tab" data-bs-toggle="pill" data-bs-target="#pills-topic" type="button" role="tab" aria-controls="pills-topic" aria-selected="true">Filter Posts By Topic</button>
+		</li>
+		<li class="nav-item" role="presentation">
+			<button class="nav-link  @ViewBag.memberTab" id="pills-member-tab" data-bs-toggle="pill" data-bs-target="#pills-member" type="button" role="tab" aria-controls="pills-member" aria-selected="false">Filter Posts By Member</button>
+		</li>
+		<li class="nav-item" role="presentation">
+			<button class="nav-link  @ViewBag.dateTab" id="pills-date-tab" data-bs-toggle="pill" data-bs-target="#pills-date" type="button" role="tab" aria-controls="pills-date" aria-selected="false">Filter Posts By Date</button>
+		</li>
+	</ul>
+	<div class="tab-content" id="pills-tabContent">
+		<div class="tab-pane fade @ViewBag.topicTabContent" id="pills-topic" role="tabpanel" aria-labelledby="pills-topic-tab">
+			@*<h3 class="mb-3 mt-3">Filter by Topic</h3>*@
+			<form asp-action="FilterPosts" method="GET">
+				<div class="row">
+					<div class="col-md-4 mb-4 offset-md-4">
+						@Html.DropDownList("Topic", (IEnumerable<SelectListItem>)ViewBag.Topics, new { @class = "form-control me-3" })
+						<input type="hidden" name="tab" value="Topic">
+					</div>
+					<div class="col-md-4 mb-4 text-start">
+						<button type="submit" class="btn btn-primary">Filter</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="tab-pane fade  @ViewBag.memberTabContent" id="pills-member" role="tabpanel" aria-labelledby="pills-member-tab">
+			@*<h3 class="mb-3 mt-3">Filter by Member</h3>*@
+			<form asp-action="FilterPosts" method="GET">
+				<div class="row">
+					<div class="col-md-4 mb-4 offset-md-4">
+						@Html.DropDownList("Member", (IEnumerable<SelectListItem>)ViewBag.Members, new { @class = "form-control me-3" })
+						<input type="hidden" name="tab" value="Member">
+					</div>
+					<div class="col-md-4 mb-4 text-start">
+						<button type="submit" class="btn btn-primary">Filter</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="tab-pane fade @ViewBag.dateTabContent" id="pills-date" role="tabpanel" aria-labelledby="pills-date-tab">
+			@*<h3 class="mb-3 mt-3">Filter by Date (UTC)</h3>*@
+			<form asp-action="FilterPosts" method="GET">
+				<div class="row">
+					<div class="col-md-4 mb-4 offset-md-4">
+						<input class="form-control" type="date" name="Date" value="@ViewBag.Date" />
+						<input type="hidden" name="tab" value="Date">
+					</div>
+					<div class="col-md-4 mb-4 text-start">
+						<button type="submit" class="btn btn-primary">Filter</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<table class="table table-striped table-bordered table-hover">
+		<thead>
+			<tr class="bg-secondary text-white">
+				<th>
+					@Html.DisplayNameFor(model => model.Topic)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Message)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.PostedBy)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.MessaAt)
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>
+						@*@Html.DisplayFor(modelItem => item.Topic)*@
+						<a asp-action="Details" class="" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Topic)</a>
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Message)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.PostedBy)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.MessaAt)
+					</td>
+				</tr>
+			}
+			@if (Model.Count() == 0)
+			{
+				<tr>
+					<td colspan="5">No posts found.</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
+<a asp-action="FilterPosts" asp-controller="Posts" class="btn btn-secondary" style="text-align:left;">Back to Filter</a>

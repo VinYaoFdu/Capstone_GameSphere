@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace PuzzleOasis.Areas.Identity.Pages.Account.Manage
+namespace GameSphere.Areas.Identity.Pages.Account.Manage
 {
     public class UploadAvatarModel : PageModel
     {

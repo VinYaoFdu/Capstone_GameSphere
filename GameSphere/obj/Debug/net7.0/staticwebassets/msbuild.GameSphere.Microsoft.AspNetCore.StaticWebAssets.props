@@ -1296,12 +1296,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\033c2cd4-496d-47e0-803b-09614f685a52_Dizzy.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0cceba14-bb06-4263-b0bd-6161cfaa2c7f_avatar.png))">
       <SourceType>Package</SourceType>
       <SourceId>GameSphere</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GameSphere</BasePath>
-      <RelativePath>uploads/033c2cd4-496d-47e0-803b-09614f685a52_Dizzy.png</RelativePath>
+      <RelativePath>uploads/0cceba14-bb06-4263-b0bd-6161cfaa2c7f_avatar.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1310,14 +1310,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\033c2cd4-496d-47e0-803b-09614f685a52_Dizzy.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0cceba14-bb06-4263-b0bd-6161cfaa2c7f_avatar.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\177e2db5-438e-4895-9c95-f8890a607bfa_age2.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\14b62d14-e5de-4e76-91e4-b3ba811ede65_RA3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>GameSphere</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GameSphere</BasePath>
-      <RelativePath>uploads/177e2db5-438e-4895-9c95-f8890a607bfa_age2.jpg</RelativePath>
+      <RelativePath>uploads/14b62d14-e5de-4e76-91e4-b3ba811ede65_RA3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1326,14 +1326,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\177e2db5-438e-4895-9c95-f8890a607bfa_age2.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\14b62d14-e5de-4e76-91e4-b3ba811ede65_RA3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\4d6fa8a2-94ea-43d9-952e-a95504cbf1b8_CompanyOfHeroes3.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5c5f846f-99a4-4c3c-b0fb-c890463dd7ba_Red_Alert_3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>GameSphere</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GameSphere</BasePath>
-      <RelativePath>uploads/4d6fa8a2-94ea-43d9-952e-a95504cbf1b8_CompanyOfHeroes3.jpg</RelativePath>
+      <RelativePath>uploads/5c5f846f-99a4-4c3c-b0fb-c890463dd7ba_Red_Alert_3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1342,14 +1342,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\4d6fa8a2-94ea-43d9-952e-a95504cbf1b8_CompanyOfHeroes3.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5c5f846f-99a4-4c3c-b0fb-c890463dd7ba_Red_Alert_3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6a913e3d-be27-48e2-8951-fcf823c1e957_avatar.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\78783794-b634-4728-9dc1-32d453c22e88_avatar.png))">
       <SourceType>Package</SourceType>
       <SourceId>GameSphere</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GameSphere</BasePath>
-      <RelativePath>uploads/6a913e3d-be27-48e2-8951-fcf823c1e957_avatar.png</RelativePath>
+      <RelativePath>uploads/78783794-b634-4728-9dc1-32d453c22e88_avatar.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1358,14 +1358,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6a913e3d-be27-48e2-8951-fcf823c1e957_avatar.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\78783794-b634-4728-9dc1-32d453c22e88_avatar.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\acbeeee6-7204-4f2f-ac30-bddcd48cc061_CompanyOfHeroes3.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\de815db8-52e9-4dfa-8fdb-a99e6a58ee81_CompanyOfHeroes3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>GameSphere</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GameSphere</BasePath>
-      <RelativePath>uploads/acbeeee6-7204-4f2f-ac30-bddcd48cc061_CompanyOfHeroes3.jpg</RelativePath>
+      <RelativePath>uploads/de815db8-52e9-4dfa-8fdb-a99e6a58ee81_CompanyOfHeroes3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1374,39 +1374,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\acbeeee6-7204-4f2f-ac30-bddcd48cc061_CompanyOfHeroes3.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\dec4ab29-7fb0-4c0d-aa71-523ccd1f4d70_avatar.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>GameSphere</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/GameSphere</BasePath>
-      <RelativePath>uploads/dec4ab29-7fb0-4c0d-aa71-523ccd1f4d70_avatar.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\dec4ab29-7fb0-4c0d-aa71-523ccd1f4d70_avatar.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e4db1b79-9b44-49c3-878d-c2836eb72ad5_2efd7e57-cc11-4b56-8b67-ddbd268de563-AFRICA_FRONT.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>GameSphere</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/GameSphere</BasePath>
-      <RelativePath>uploads/e4db1b79-9b44-49c3-878d-c2836eb72ad5_2efd7e57-cc11-4b56-8b67-ddbd268de563-AFRICA_FRONT.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e4db1b79-9b44-49c3-878d-c2836eb72ad5_2efd7e57-cc11-4b56-8b67-ddbd268de563-AFRICA_FRONT.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\de815db8-52e9-4dfa-8fdb-a99e6a58ee81_CompanyOfHeroes3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e82c20cc-4efb-4cf7-ba17-a28a86c02747_avatar.png))">
       <SourceType>Package</SourceType>
@@ -1423,22 +1391,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e82c20cc-4efb-4cf7-ba17-a28a86c02747_avatar.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ea26bccc-692e-4da5-aa16-bce7d208c543_CompanyOfHeroes3.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>GameSphere</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/GameSphere</BasePath>
-      <RelativePath>uploads/ea26bccc-692e-4da5-aa16-bce7d208c543_CompanyOfHeroes3.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ea26bccc-692e-4da5-aa16-bce7d208c543_CompanyOfHeroes3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f6452920-70bc-473e-b148-a1b03618fa16_avatar.png))">
       <SourceType>Package</SourceType>
